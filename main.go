@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// Step 1
 func getCharacterCount(fileContent []byte) map[string]int {
 	characterMap := make(map[string]int)
 
